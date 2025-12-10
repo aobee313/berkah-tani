@@ -1,0 +1,12 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#product-list .card {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#product-list .card:hover {
+    transform: scale(1.05);
+}
